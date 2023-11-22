@@ -11,7 +11,6 @@
 |GRPC_RECONNECTION_TIME	 |  Optional		| Waiting time (in seconds) before reconnecting to gRPC server if there is a lost connection, default value 10	| 10 		 
 
 
-
 ``` config
 [profile myProfileName]
     role_arn = arn:aws:iam::<Account ID>:role/DeveloperRole
