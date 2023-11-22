@@ -9,3 +9,11 @@
 |DB_PASSWORD	 	 	 |  Required  		| Database password								 					 						  					|Contact Admin 		  							|
 |GRPC_SERVER_URL	 	 |  Required  		| Full gRPC's url with http server and port number											  					| http://grpc_server:5000 			|
 |GRPC_RECONNECTION_TIME	 |  Optional		| Waiting time (in seconds) before reconnecting to gRPC server if there is a lost connection, default value 10	| 10 		 
+
+
+
+``` config
+[profile myProfileName]
+    role_arn = arn:aws:iam::<Account ID>:role/DeveloperRole
+    source_profile = default
+```
